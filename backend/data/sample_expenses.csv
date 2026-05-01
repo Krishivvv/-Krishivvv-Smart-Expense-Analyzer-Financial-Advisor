@@ -1,0 +1,104 @@
+description,amount,category,date,payment_method
+Lunch at Cafe Coffee Day,320.00,Food,2026-04-01,upi
+Zomato order Biryani,450.00,Food,2026-04-02,upi
+Swiggy Pizza,520.00,Food,2026-04-03,card
+Dinner at restaurant,890.00,Food,2026-04-05,card
+McDonald's meal,310.00,Food,2026-04-06,upi
+Tea and snacks,80.00,Food,2026-04-07,cash
+Breakfast at hotel,180.00,Food,2026-04-08,upi
+Domino's Pizza,420.00,Food,2026-04-10,upi
+KFC dinner,560.00,Food,2026-04-12,card
+Subway sandwich,290.00,Food,2026-04-15,upi
+Uber to office,180.00,Transport,2026-04-01,upi
+Ola ride home,150.00,Transport,2026-04-02,upi
+Petrol fill-up,1500.00,Transport,2026-04-03,card
+Metro card recharge,400.00,Transport,2026-04-05,upi
+Bus pass monthly,300.00,Transport,2026-04-06,cash
+Train ticket Mumbai,650.00,Transport,2026-04-08,card
+Auto rickshaw,80.00,Transport,2026-04-10,cash
+Uber Premier airport,820.00,Transport,2026-04-12,card
+Petrol bike,400.00,Transport,2026-04-15,upi
+Rapido bike taxi,90.00,Transport,2026-04-18,upi
+Amazon order Headphones,2400.00,Shopping,2026-04-02,card
+Flipkart Clothes,1800.00,Shopping,2026-04-04,upi
+Myntra T-shirt,750.00,Shopping,2026-04-06,upi
+Shoes from Bata,2200.00,Shopping,2026-04-08,card
+Watch from Titan,4500.00,Shopping,2026-04-10,card
+Amazon backpack,1200.00,Shopping,2026-04-13,upi
+Flipkart phone case,499.00,Shopping,2026-04-15,upi
+H&M shirt,890.00,Shopping,2026-04-18,card
+Decathlon tracksuit,1650.00,Shopping,2026-04-20,card
+IKEA home decor,3200.00,Shopping,2026-04-22,card
+Electricity bill,1800.00,Utilities,2026-04-05,upi
+Water bill,350.00,Utilities,2026-04-05,upi
+Wifi internet bill,899.00,Utilities,2026-04-05,card
+Mobile recharge Jio,299.00,Utilities,2026-04-08,upi
+Gas cylinder,950.00,Utilities,2026-04-12,upi
+DTH recharge,400.00,Utilities,2026-04-15,upi
+Maintenance fee society,1500.00,Utilities,2026-04-18,upi
+Movie tickets PVR,800.00,Entertainment,2026-04-03,card
+Netflix subscription,649.00,Entertainment,2026-04-05,card
+Spotify premium,119.00,Entertainment,2026-04-05,upi
+Game purchase Steam,1500.00,Entertainment,2026-04-10,card
+Concert ticket,2200.00,Entertainment,2026-04-15,card
+Amazon Prime membership,1499.00,Entertainment,2026-04-20,card
+Disney Hotstar,299.00,Entertainment,2026-04-22,upi
+Bowling with friends,600.00,Entertainment,2026-04-25,upi
+Doctor consultation,800.00,Health,2026-04-04,upi
+Medicine from pharmacy,420.00,Health,2026-04-06,upi
+Apollo hospital visit,1500.00,Health,2026-04-10,card
+Gym membership monthly,1500.00,Health,2026-04-01,card
+Dental cleaning,1200.00,Health,2026-04-15,upi
+Eye checkup glasses,2800.00,Health,2026-04-18,card
+Vitamins supplement,650.00,Health,2026-04-22,upi
+Coursera course,2500.00,Education,2026-04-05,card
+Engineering book,750.00,Education,2026-04-08,upi
+Tuition fees,5000.00,Education,2026-04-01,upi
+Stationery,250.00,Education,2026-04-12,cash
+Udemy course,499.00,Education,2026-04-15,card
+Notebook bundle,180.00,Education,2026-04-18,upi
+Reference book,420.00,Education,2026-04-22,upi
+Monthly rent PG,12000.00,Rent,2026-04-01,upi
+Hostel fees,8000.00,Rent,2026-04-02,upi
+Monthly rent flat,15000.00,Rent,2026-04-01,upi
+BigBasket grocery order,1800.00,Groceries,2026-04-03,upi
+Kirana store vegetables,420.00,Groceries,2026-04-05,cash
+Fruits from market,280.00,Groceries,2026-04-07,cash
+Reliance Fresh shopping,1200.00,Groceries,2026-04-10,upi
+DMart monthly grocery,2400.00,Groceries,2026-04-12,upi
+Milk and bread,80.00,Groceries,2026-04-14,cash
+Spencer's grocery,950.00,Groceries,2026-04-16,upi
+JioMart order,650.00,Groceries,2026-04-18,upi
+Vegetables weekly,350.00,Groceries,2026-04-20,cash
+Salon haircut,400.00,Others,2026-04-05,upi
+Gift for friend,800.00,Others,2026-04-10,upi
+Donation temple,200.00,Others,2026-04-15,cash
+Laundry service,300.00,Others,2026-04-18,upi
+Lunch at cafe,290.00,Food,2026-03-15,upi
+Uber to mall,160.00,Transport,2026-03-18,upi
+Amazon Echo Dot,3500.00,Shopping,2026-03-20,card
+Electricity March,2000.00,Utilities,2026-03-05,upi
+Movie BookMyShow,650.00,Entertainment,2026-03-22,upi
+Pharmacy medicines,380.00,Health,2026-03-25,upi
+Programming book,890.00,Education,2026-03-12,card
+Rent March,15000.00,Rent,2026-03-01,upi
+BigBasket March,1650.00,Groceries,2026-03-08,upi
+Birthday party expense,4500.00,Others,2026-03-15,card
+Cafe Coffee Feb,250.00,Food,2026-02-15,upi
+Petrol Feb,1400.00,Transport,2026-02-18,card
+Flipkart shoes Feb,1850.00,Shopping,2026-02-20,upi
+Wifi bill Feb,899.00,Utilities,2026-02-05,upi
+Concert Feb,1800.00,Entertainment,2026-02-22,card
+Doctor visit Feb,750.00,Health,2026-02-25,upi
+Online course Feb,1500.00,Education,2026-02-12,card
+Rent Feb,15000.00,Rent,2026-02-01,upi
+DMart Feb,2200.00,Groceries,2026-02-08,upi
+Salon Feb,500.00,Others,2026-02-15,cash
+Emergency hospital bill,28000.00,Health,2026-04-08,card
+Laptop purchase,72000.00,Shopping,2026-03-25,card
+Family dinner 5-star,8500.00,Food,2026-04-15,card
+Wedding gift purchase,18000.00,Shopping,2026-02-28,card
+International trip booking,45000.00,Entertainment,2026-03-10,card
+Office party shared,6500.00,Entertainment,2026-04-20,card
+Uber surge late night,1200.00,Transport,2026-04-19,card
+Big festive shopping,12500.00,Shopping,2026-04-25,card
