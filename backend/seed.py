@@ -100,23 +100,33 @@ def seed_database(force: bool = False):
         today = datetime.utcnow()
         expenses_to_add = []
 
-        # 80 normal expenses spread over last 90 days
-        for _ in range(80):
-            tpl = random.choice(EXPENSE_TEMPLATES)
-            desc, cat, lo, hi = tpl
-            amount = round(random.uniform(lo, hi), 2)
-            days_back = random.randint(0, 90)
-            date = today - timedelta(days=days_back, hours=random.randint(0, 23))
-            expenses_to_add.append(models.Expense(
-                description=desc,
-                amount=amount,
-                category=cat,
-                predicted_category=cat,
-                date=date,
-                is_anomaly=False,
-                payment_method=random.choice(PAYMENT_METHODS),
-                notes=None,
-            ))
+        # Distribute across last 3 months: ~30 current month, ~30 last month, ~20 month before that
+        def pick_offset(slot: int) -> int:
+            """slot 0: current month (0..28d), 1: last month (28..58d), 2: 60..90d"""
+            if slot == 0:
+                return random.randint(0, min(today.day, 28))
+            if slot == 1:
+                return random.randint(28, 58)
+            return random.randint(60, 90)
+
+        slot_counts = [30, 30, 20]
+        for slot, n in enumerate(slot_counts):
+            for _ in range(n):
+                tpl = random.choice(EXPENSE_TEMPLATES)
+                desc, cat, lo, hi = tpl
+                amount = round(random.uniform(lo, hi), 2)
+                days_back = pick_offset(slot)
+                date = today - timedelta(days=days_back, hours=random.randint(0, 23))
+                expenses_to_add.append(models.Expense(
+                    description=desc,
+                    amount=amount,
+                    category=cat,
+                    predicted_category=cat,
+                    date=date,
+                    is_anomaly=False,
+                    payment_method=random.choice(PAYMENT_METHODS),
+                    notes=None,
+                ))
 
         # 4 obvious anomalies
         for _ in range(4):
