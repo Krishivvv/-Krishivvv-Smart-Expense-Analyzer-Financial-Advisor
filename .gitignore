@@ -1,0 +1,47 @@
+# --- Course-project artefacts (not part of the codebase) ---
+ML_COURSE_PROJECT_*.docx
+ML_COURSE_PROJECT_*.pdf
+ML COURSE PROJECT*.pdf
+ML COURSE PROJECT*.docx
+generate_report.py
+~$*.docx
+~$*.doc
+~$*.xlsx
+~$*.xls
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Trained ML artefacts (regenerated at runtime) ---
+backend/models/*.pkl
+
+# --- Local database ---
+backend/expenses.db
+*.sqlite
+*.sqlite3
+
+# --- Node / frontend ---
+node_modules/
+frontend/node_modules/
+frontend/dist/
+.vite/
+*.log
+npm-debug.log*
+
+# --- Editor / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
